@@ -565,12 +565,29 @@
 Windows ricing refers to customizing the appearance and functionality of the Windows desktop environment to achieve a unique, aesthetic, and often minimalistic or themed look.
 </p>
 
+
 <a href="https://github.com/winthemers/wiki" target="_blank"> 
   <img src="https://img.shields.io/badge/Winthemers-Windows%20Ricing%20Wiki-4D5054?style=for-the-badge&logo=github&logoColor=white" alt="Windows Ricing Wiki"></a>
   <a href="https://gist.github.com/triplrrr/d2250db71f0b3a93ed60daa65fe5668f" target="_blank"> 
   <img src="https://img.shields.io/badge/triplrrr-Gist%20Ricing%20Guide-4D5054?style=for-the-badge&logo=github&logoColor=white" alt="triplrrr Gist Ricing Guide"></a>
  <a href="https://github.com/iDCoded/Windows-Rice" target="_blank"> 
   <img src="https://img.shields.io/badge/iDCoded-Windows%20Rice-4D5054?style=for-the-badge&logo=github&logoColor=white" alt="iDCoded Windows Rice Repo"></a>
+
+<h2>❗HyprLand Like Setup</h2>
+<p>
+This setup transforms Windows 11 into a sleek Hyprland-inspired desktop environment, featuring a minimal aesthetic, sharp window gaps, and a highly customized workflow. With a combination of tiling behavior, translucent panels, and clean system indicators, it delivers a modern Linux-style experience while retaining full Windows compatibility. Perfect for users who enjoy a dynamic, keyboard-driven interface with a polished, Nordic visual style.
+</p>
+
+<a href="https://github.com/amnweb/yasb" target="_blank">
+  <img src="https://img.shields.io/badge/YASB-amnweb-3B4252?style=for-the-badge&logo=github&logoColor=white" alt="YASB Repo"></a>
+<a href="https://github.com/glzr-io/glazewm" target="_blank">
+  <img src="https://img.shields.io/badge/GlazeWM-glzr_io-3B4252?style=for-the-badge&logo=github&logoColor=white" alt="GlazeWM Repo"></a>
+<a href="https://github.com/JoshuaThadi/Desk-Mob/tree/main/config/Config-files" target="_blank">
+  <img src="https://img.shields.io/badge/Custom%20Config%20Files-4D5054?style=for-the-badge&logo=github&logoColor=white" alt="Custom Config Files"></a>
+<a href="https://www.youtube.com/watch?v=b57zFm3nVxA&list=PLAoJfvFSn6qhryR3cYnNsYSyt7fZeSxbN&index=24&pp=gAQBiAQB" target="_blank">
+  <img src="https://img.shields.io/badge/YOUTUBE-4D5054?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube Link">
+</a>
+
 
 
 <div>
@@ -579,6 +596,7 @@ Windows ricing refers to customizing the appearance and functionality of the Win
   </p>
 </div>
 
+<img width="100%" src="https://github.com/JoshuaThadi/Operating-System-Environment/blob/main/assests/yasb-look.png">
 <img width="100%" src="https://github.com/JoshuaThadi/Operating-System-Environment/blob/main/Desk%26Mob/Screenshot%20(35).png?raw=true" alt="Screenshot 35">
 <img width="100%" src="https://github.com/JoshuaThadi/Operating-System-Environment/blob/main/Desk%26Mob/Screenshot%20(33).png?raw=true" alt="Screenshot 33">
 <img width="100%" src="https://preview.redd.it/windows-11-v0-tq7ruf52ymue1.png?width=1080&crop=smart&auto=webp&s=c15edcf187b84098bedc59cabce521bbafbacb16" alt="Screenshot 33">
