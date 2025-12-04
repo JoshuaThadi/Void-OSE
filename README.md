@@ -1,3 +1,6 @@
+>[!IMPORTANT] 
+> <b>Notice:<b> <a href="#">“Kindly ensure you conduct your own research before performing any operations, as certain customizations may pose risks to some operating systems. It is strongly recommended to create a full backup prior to making any changes.”</a>
+---
 <!-- Desktop setup -->
 
 <div align="center">
