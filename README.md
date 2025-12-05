@@ -581,6 +581,7 @@ Windows ricing refers to customizing the appearance and functionality of the Win
 This setup transforms Windows 11 into a sleek Hyprland-inspired desktop environment, featuring a minimal aesthetic, sharp window gaps, and a highly customized workflow. With a combination of tiling behavior, translucent panels, and clean system indicators, it delivers a modern Linux-style experience while retaining full Windows compatibility. Perfect for users who enjoy a dynamic, keyboard-driven interface with a polished, Nordic visual style.
 </p>
 
+
 <a href="https://github.com/amnweb/yasb" target="_blank">
   <img src="https://img.shields.io/badge/YASB-amnweb-3B4252?style=for-the-badge&logo=github&logoColor=white" alt="YASB Repo"></a>
 <a href="https://github.com/glzr-io/glazewm" target="_blank">
@@ -603,6 +604,7 @@ This setup transforms Windows 11 into a sleek Hyprland-inspired desktop environm
   </p>
 </div>
 
+<img width="100%" src="https://github.com/JoshuaThadi/Operating-System-Environment/blob/main/assests/yasb.png">
 <img width="100%" src="https://github.com/JoshuaThadi/Operating-System-Environment/blob/main/assests/yasb-look.png">
 <img width="100%" src="https://github.com/JoshuaThadi/Operating-System-Environment/blob/main/Desk%26Mob/Screenshot%20(35).png?raw=true" alt="Screenshot 35">
 <img width="100%" src="https://github.com/JoshuaThadi/Operating-System-Environment/blob/main/Desk%26Mob/Screenshot%20(33).png?raw=true" alt="Screenshot 33">
