@@ -604,8 +604,7 @@ This setup transforms Windows 11 into a sleek Hyprland-inspired desktop environm
   </p>
 </div>
 
-<img width="100%" src="https://github.com/JoshuaThadi/Operating-System-Environment/blob/main/assests/yasb.png">
-<img width="100%" src="https://github.com/JoshuaThadi/Operating-System-Environment/blob/main/assests/yasb-look.png">
+<img width="100%" src="https://github.com/JoshuaThadi/Void-OSE/blob/main/assests/Desktop%20shot/windtouch.png">
 <img width="100%" src="https://github.com/JoshuaThadi/Operating-System-Environment/blob/main/Desk%26Mob/Screenshot%20(35).png?raw=true" alt="Screenshot 35">
 <img width="100%" src="https://github.com/JoshuaThadi/Operating-System-Environment/blob/main/Desk%26Mob/Screenshot%20(33).png?raw=true" alt="Screenshot 33">
 <img width="100%" src="https://preview.redd.it/windows-11-v0-tq7ruf52ymue1.png?width=1080&crop=smart&auto=webp&s=c15edcf187b84098bedc59cabce521bbafbacb16" alt="Screenshot 33">
