@@ -7,7 +7,7 @@
   <img width="190px" src="https://images.icon-icons.com/2235/PNG/512/linux_os_logo_icon_134670.png" alt="linux">
 </div>
 
-<h1 align="center"><img width="40px" src="https://github.com/JoshuaThadi/Operating-System-Environment/blob/main/Desk%26Mob/fogoAzul.gif"> Linux Professional Setup</h1>
+<h1 align="center"><img width="40px" src="https://github.com/JoshuaThadi/Void-OSE/blob/main/assests/fogoAzul.gif"> Linux Professional Setup</h1>
 
 <div align="center">
   <a href="https://www.linux.org/pages/download/" target="_blank">
@@ -169,7 +169,7 @@
 
 
 
-<h2><img width="20px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Arch_Linux_%22Crystal%22_icon.svg/480px-Arch_Linux_%22Crystal%22_icon.svg.png"> Arch Personalization</h2>
+<h2><img width="20px" src="https://freepngimg.com/save/58900-installation-icons-computer-linux-distribution-arch/512x512"> Arch Personalization</h2>
 
 <div align="left">
 
