@@ -586,9 +586,9 @@ This setup transforms Windows 11 into a sleek Hyprland-inspired desktop environm
   <img src="https://img.shields.io/badge/YASB-amnweb-3B4252?style=for-the-badge&logo=github&logoColor=white" alt="YASB Repo"></a>
 <a href="https://github.com/glzr-io/glazewm" target="_blank">
   <img src="https://img.shields.io/badge/GlazeWM-glzr_io-3B4252?style=for-the-badge&logo=github&logoColor=white" alt="GlazeWM Repo"></a>
-<a href="https://github.com/JoshuaThadi/Desk-Mob/tree/main/config/Config-files" target="_blank">
+<a href="https://github.com/JoshuaThadi/Void-OSE/tree/main/configs/windows%20config/yasb%20config" target="_blank">
   <img src="https://img.shields.io/badge/Custom%20Config%20Files-4D5054?style=for-the-badge&logo=github&logoColor=white" alt="Custom Config Files"></a>
-<a href="https://github.com/IceDBorn/zebar" target="_blank">
+<a href="https://github.com/glzr-io/zebar" target="_blank">
   <img src="https://img.shields.io/badge/Zebar-4D5054?style=for-the-badge&logo=github&logoColor=white" alt="Zebar Repo"></a>
 <a href="https://github.com/LGUG2Z/komorebi" target="_blank">
   <img src="https://img.shields.io/badge/Komorebi-4D5054?style=for-the-badge&logo=github&logoColor=white" alt="Komorebi Repo"></a>
