@@ -1319,9 +1319,8 @@ On macOS, while customization is more limited due to Apple’s system restrictio
 </table>-->
 
 
-
-
+<div align="center">
 ⚠️ This repository is uniquely designed by <strong>@JoshuaThadi</strong>
-
+</div>
 
 </div>
