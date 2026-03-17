@@ -787,9 +787,9 @@ On macOS, while customization is more limited due to Apple’s system restrictio
 </div>
 
 
-<img width="100%" src="https://github.com/JoshuaThadi/Operating-System-Environment/blob/main/Desk%26Mob/Screenshot%202025-05-14%20210724.png" alt="macosimg">
+<img width="100%" src="https://github.com/JoshuaThadi/Void-OSE/blob/main/assests/mac%20custom.png" alt="macosimg">
 <img width="100%" src="https://utfs.io/a/09ir0bgwfb/ZnKwSvEWGbTOqUImrfXbJmuecKPlfUjEhCAwR2kgVv9ZtQGY" alt="macosimg">
-<img width="100%" src="https://github.com/JoshuaThadi/Operating-System-Environment/blob/main/Desk%26Mob/macimg.webp" alt="macosimg">
+<img width="100%" src="https://github.com/JoshuaThadi/Void-OSE/blob/main/assests/macimg.webp" alt="macosimg">
 
 
 
@@ -1243,7 +1243,7 @@ On macOS, while customization is more limited due to Apple’s system restrictio
 <a href="https://tinyblocks.gumroad.com/l/minimaliphone">
   <img width="100%" src="https://public-files.gumroad.com/zjjzxhb4eh75th1vyd5vkve4xbkp" alt="ios">
 </a>
-<img width="100%" src="https://github.com/JoshuaThadi/Operating-System-Environment/blob/main/Desk%26Mob/iosimg.webp" alt="ios">
+<img width="100%" src="https://github.com/JoshuaThadi/Void-OSE/blob/main/assests/iosimg.webp" alt="ios">
 
 
 
