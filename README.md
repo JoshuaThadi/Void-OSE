@@ -1320,7 +1320,7 @@ On macOS, while customization is more limited due to Apple’s system restrictio
 
 
 <div align="center">
-⚠️ This repository is uniquely designed by <strong>@JoshuaThadi</strong>
+⚠️ This repository is uniquely designed by <strong>@JoshuaThadi.</strong>
 </div>
 
 </div>
