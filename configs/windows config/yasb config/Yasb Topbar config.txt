@@ -1,0 +1,150 @@
+watch_stylesheet: true
+watch_config: true
+debug: false
+
+bars:
+  primary-bar:
+    enabled: true
+    screens: ["*"]
+    class_name: "yasb-bar"
+    alignment:
+      position: "top"
+      center: false    
+    blur_effect:
+      enabled: true
+      dark_mode: true
+      round_corners: true
+      border_color: None
+    window_flags:
+      windows_app_bar: false
+    dimensions:
+      width: "100%"
+      height: 34
+    padding:
+      top: 5
+      left: 6
+      bottom: 2
+      right: 6
+
+    widgets:
+      left: ["win_button", "traffic", "apps"]
+      center: ["date"]
+      right: ["weather", "volume", "notifications", "power_menu"]
+
+widgets:
+
+  # --- Windows Button ---
+  win_button:
+    type: "yasb.custom.CustomWidget"
+    options:
+      label: "󰍲"        # Use your Windows icon here (no text)
+      label_alt: "󰍲"
+      class_name: "win-btn"
+      callbacks:
+        on_left: "exec start_menu"
+
+  # --- Apps Widget ---
+  apps:
+    type: "yasb.applications.ApplicationsWidget"
+    options:
+      container_padding:
+        top: 0
+        left: 0
+        bottom: 0
+        right: 0
+      label: "{data}"
+      app_list:
+        - { icon: "", launch: "quick_settings" }
+        - { icon: "", launch: "search" }
+        - { icon: "", launch: "cmd /c Taskmgr" }
+        - { icon: "", launch: "wt" }
+        - { icon: "", launch: "\"C:\\Users\\amn\\AppData\\Local\\Discord\\Update.exe\" --processStart Discord.exe" }
+        - { icon: "󰈹", launch: "\"C:\\Program Files\\Mozilla Firefox\\firefox.exe\"" }
+
+  # --- Network Traffic Widget ---
+  traffic:
+    type: "yasb.traffic.TrafficWidget"
+    options:
+      label: "↓{download_speed} ↑{upload_speed}"
+      label_alt: "↓{download_speed} ↑{upload_speed}"
+      update_interval: 1000
+      callbacks:
+        on_left: "toggle_label"
+
+  # --- Weather Widget ---
+  weather:
+    type: "yasb.weather.WeatherWidget"
+    options:
+      label: "<span>{icon}</span> {temp}°"
+      label_alt: "<span>{icon}</span> {location}: Min {min_temp}° Max {max_temp}° | Humidity {humidity}%"
+      api_key: "f06f46a4615344a2b41125000252806"
+      update_interval: 600
+      hide_decimal: true
+      location: "Los Angeles, US"
+      callbacks:
+        on_left: "toggle_label"
+      icons:
+        sunnyDay: "󰖙"
+        clearNight: "󰖔"
+        cloudyDay: "󰖐"
+        cloudyNight: "󰼱"
+        rainyDay: "󰖗"
+        rainyNight: "󰖗"
+        snowyIcyDay: "󰖘"
+        snowyIcyNight: "󰖘"
+        blizzardDay: "󰼳"
+        default: "󰖙"
+
+  # --- Volume Widget ---
+  volume:
+    type: "yasb.volume.VolumeWidget"
+    options:
+      label: "<span>{icon}</span> {level}"
+      label_alt: "{volume}"
+      volume_icons:
+        - "󰖁"
+        - "󰕿"
+        - "󰖀"
+        - "󰕾"
+        - "󰕾"
+      callbacks:
+        on_right: "exec cmd.exe /c start ms-settings:sound"
+
+  # --- Date Widget (Center) ---
+  date:
+    type: "yasb.clock.ClockWidget"
+    options:
+      label: "{%A, %d %B %Y}"   
+      label_alt: "{%a, %d %b}"  
+      callbacks:
+        on_left: "toggle_label"
+
+  # --- Notifications Widget ---
+  notifications:
+    type: "yasb.notifications.NotificationsWidget"
+    options:
+      label: "<span>󰂚</span>"
+      label_alt: "{count} notifications"
+      hide_empty: true
+      tooltip: true
+      callbacks:
+        on_left: "toggle_notification"
+        on_middle: "toggle_label"
+
+  # --- Power Menu Widget ---
+  power_menu:
+    type: "yasb.power_menu.PowerMenuWidget"
+    options:
+      label: "<span>󰐥</span>"
+      uptime: true
+      blur: true
+      blur_background: true
+      animation_duration: 200
+      button_row: 5
+      buttons:
+        shutdown: ["󰐥", "Shut Down"]
+        restart: ["󰜉", "Restart"]
+        signout: ["󰍃", "Sign out"]
+        hibernate: ["󰤄", "Hibernate"]
+        sleep: ["󰤁", "Sleep"]
+        cancel: ["", "Cancel"]

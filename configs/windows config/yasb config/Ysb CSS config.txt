@@ -1,0 +1,124 @@
+* {
+  font-family: "JetBrainsMono NFP";
+  font-size: 12px;
+  font-weight: 600;
+  color: #8b9cb0; /* unified text/icon color */
+  margin: 0;
+  padding: 0;
+}
+
+.yasb-bar {
+  padding: 0;
+  margin: 0;
+}
+
+/* Core widget style */
+.widget {
+  background-color: #909fb2; /* island background */
+  padding: 2px 6px;
+  margin: 0 4px;
+  border-radius: 10px;
+}
+
+/* Transparent widgets (Windows, Apps, Power menu) */
+.win-btn,
+.apps-widget,
+.power-menu-widget {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Icons */
+.icon {
+  font-size: 15px;
+  vertical-align: middle;
+  color: #1c1f25 !important;
+}
+
+/* Labels */
+.label {
+  padding: 0 4px;
+  color: #1c1f25 !important;
+}
+
+.label.alt {
+  padding: 0 8px;
+  color: #1c1f25 !important;
+}
+
+/* Traffic, Weather, Volume, Clock, Notifications */
+.traffic-widget,
+.weather-widget,
+.volume-widget,
+.clock-widget,
+.notifications-widget {
+  padding: 1px 6px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+/* --- CLOCK/DATE --- */
+.clock-widget {
+  position: relative;
+  background-color: transparent !important;
+  padding: 2px 10px;
+  margin: 0 6px;
+  overflow: hidden;
+}
+
+.clock-widget::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -10px;
+  width: calc(100% + 20px);
+  height: 100%;
+  background-color: #909fb2;
+  transform: skew(-20deg);
+  border-radius: 6px;
+  z-index: -1;
+}
+
+/* --- APP ICONS --- */
+.apps-widget .label {
+  color: #8b9cb0 !important;
+}
+
+/* --- WINDOWS BUTTON ICON (NOW MATCHES POWER MENU) --- */
+.win-btn .label {
+  color: #cdd6f4 !important; /* ← SAME as power menu */
+}
+
+/* --- DATE (CLOCK) TEXT --- */
+.clock-widget .label {
+  color: #cdd6f4 !important; /* make date clearly readable */
+}
+
+/* Power menu popup */
+.power-menu-widget .label { 
+    font-size: 18px;
+    color: #cdd6f4;
+}
+.power-menu-popup .button {
+    padding: 0;
+    width: 180px;
+    height: 230px;
+    border-radius: 8px;
+    border: 2px solid var(--border-color);
+    background-color: var(--background-color);
+    color: var(--foreground-color);
+}
+.power-menu-popup .button:hover {
+    border: 2px solid #ffffff
+}
+.power-menu-popup .button .label {
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--foreground-color)
+}
+.power-menu-popup .button .icon {
+    font-size: 64px;
+    padding-top: 32px;
+    color: var(--foreground-color)
+}
